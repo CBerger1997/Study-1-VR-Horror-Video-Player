@@ -1,0 +1,564 @@
+fileFormatVersion: 2
+guid: 3144685afe9c5544980b6a52ccf9ba55
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 414194166562955755
+    second: The-Self-Assessment-Manikin-SAM-Measure-Scales-valence-arousal-and-dominance-pole_0
+  - first:
+      213: 983457240378507928
+    second: The-Self-Assessment-Manikin-SAM-Measure-Scales-valence-arousal-and-dominance-pole_1
+  - first:
+      213: 4960034343679202216
+    second: The-Self-Assessment-Manikin-SAM-Measure-Scales-valence-arousal-and-dominance-pole_2
+  - first:
+      213: -7167334097931803824
+    second: The-Self-Assessment-Manikin-SAM-Measure-Scales-valence-arousal-and-dominance-pole_3
+  - first:
+      213: 5145911910640402670
+    second: The-Self-Assessment-Manikin-SAM-Measure-Scales-valence-arousal-and-dominance-pole_4
+  - first:
+      213: -4611885419228234170
+    second: The-Self-Assessment-Manikin-SAM-Measure-Scales-valence-arousal-and-dominance-pole_5
+  - first:
+      213: -4389087335813860428
+    second: The-Self-Assessment-Manikin-SAM-Measure-Scales-valence-arousal-and-dominance-pole_6
+  - first:
+      213: 1065512417268082400
+    second: The-Self-Assessment-Manikin-SAM-Measure-Scales-valence-arousal-and-dominance-pole_7
+  - first:
+      213: -654476017628710640
+    second: The-Self-Assessment-Manikin-SAM-Measure-Scales-valence-arousal-and-dominance-pole_8
+  - first:
+      213: 7414430271548753453
+    second: The-Self-Assessment-Manikin-SAM-Measure-Scales-valence-arousal-and-dominance-pole_9
+  - first:
+      213: 8201543599025536136
+    second: The-Self-Assessment-Manikin-SAM-Measure-Scales-valence-arousal-and-dominance-pole_10
+  - first:
+      213: 6947529562976304460
+    second: The-Self-Assessment-Manikin-SAM-Measure-Scales-valence-arousal-and-dominance-pole_11
+  - first:
+      213: 3470833100632737147
+    second: The-Self-Assessment-Manikin-SAM-Measure-Scales-valence-arousal-and-dominance-pole_12
+  - first:
+      213: 4239992616885462333
+    second: The-Self-Assessment-Manikin-SAM-Measure-Scales-valence-arousal-and-dominance-pole_13
+  - first:
+      213: 1800705693172548268
+    second: The-Self-Assessment-Manikin-SAM-Measure-Scales-valence-arousal-and-dominance-pole_14
+  - first:
+      213: -3657847288131657166
+    second: The-Self-Assessment-Manikin-SAM-Measure-Scales-valence-arousal-and-dominance-pole_15
+  - first:
+      213: 4637216258420824759
+    second: The-Self-Assessment-Manikin-SAM-Measure-Scales-valence-arousal-and-dominance-pole_16
+  - first:
+      213: 61845748523237075
+    second: The-Self-Assessment-Manikin-SAM-Measure-Scales-valence-arousal-and-dominance-pole_17
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 120, y: 15, z: 120, w: 10}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: The-Self-Assessment-Manikin-SAM-Measure-Scales-valence-arousal-and-dominance-pole_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 373
+        width: 123
+        height: 174
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be1260666638fb500800000000000000
+      internalID: 414194166562955755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The-Self-Assessment-Manikin-SAM-Measure-Scales-valence-arousal-and-dominance-pole_1
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 406
+        width: 123
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8920c884621f5ad00800000000000000
+      internalID: 983457240378507928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The-Self-Assessment-Manikin-SAM-Measure-Scales-valence-arousal-and-dominance-pole_2
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 405
+        width: 120
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a39cb8c4f495d440800000000000000
+      internalID: 4960034343679202216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The-Self-Assessment-Manikin-SAM-Measure-Scales-valence-arousal-and-dominance-pole_3
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 405
+        width: 123
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 053ea32bc93888c90800000000000000
+      internalID: -7167334097931803824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The-Self-Assessment-Manikin-SAM-Measure-Scales-valence-arousal-and-dominance-pole_4
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 404
+        width: 123
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee04c275e93f96740800000000000000
+      internalID: 5145911910640402670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The-Self-Assessment-Manikin-SAM-Measure-Scales-valence-arousal-and-dominance-pole_5
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 405
+        width: 123
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64ef81265aa4fffb0800000000000000
+      internalID: -4611885419228234170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The-Self-Assessment-Manikin-SAM-Measure-Scales-valence-arousal-and-dominance-pole_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 199
+        width: 123
+        height: 174
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b336ac8254d613c0800000000000000
+      internalID: -4389087335813860428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The-Self-Assessment-Manikin-SAM-Measure-Scales-valence-arousal-and-dominance-pole_7
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 217
+        width: 123
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e6280fe5e579ce00800000000000000
+      internalID: 1065512417268082400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The-Self-Assessment-Manikin-SAM-Measure-Scales-valence-arousal-and-dominance-pole_8
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 215
+        width: 123
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0197a3f8785dae6f0800000000000000
+      internalID: -654476017628710640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The-Self-Assessment-Manikin-SAM-Measure-Scales-valence-arousal-and-dominance-pole_9
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 216
+        width: 123
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2601937c0955e660800000000000000
+      internalID: 7414430271548753453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The-Self-Assessment-Manikin-SAM-Measure-Scales-valence-arousal-and-dominance-pole_10
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 219
+        width: 123
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88cbbcd137cb1d170800000000000000
+      internalID: 8201543599025536136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The-Self-Assessment-Manikin-SAM-Measure-Scales-valence-arousal-and-dominance-pole_11
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 218
+        width: 123
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4d3ab3f3559a6060800000000000000
+      internalID: 6947529562976304460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The-Self-Assessment-Manikin-SAM-Measure-Scales-valence-arousal-and-dominance-pole_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 25
+        width: 123
+        height: 174
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b75c1e5d050ea2030800000000000000
+      internalID: 3470833100632737147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The-Self-Assessment-Manikin-SAM-Measure-Scales-valence-arousal-and-dominance-pole_13
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 13
+        width: 123
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d35acb312da77da30800000000000000
+      internalID: 4239992616885462333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The-Self-Assessment-Manikin-SAM-Measure-Scales-valence-arousal-and-dominance-pole_14
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 13
+        width: 122
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca2c29299446df810800000000000000
+      internalID: 1800705693172548268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The-Self-Assessment-Manikin-SAM-Measure-Scales-valence-arousal-and-dominance-pole_15
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 16
+        width: 123
+        height: 131
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23269448547bc3dc0800000000000000
+      internalID: -3657847288131657166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The-Self-Assessment-Manikin-SAM-Measure-Scales-valence-arousal-and-dominance-pole_16
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 14
+        width: 123
+        height: 132
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bad6d53e93ba5040800000000000000
+      internalID: 4637216258420824759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: The-Self-Assessment-Manikin-SAM-Measure-Scales-valence-arousal-and-dominance-pole_17
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 12
+        width: 123
+        height: 141
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3de789f6168bbd000800000000000000
+      internalID: 61845748523237075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
