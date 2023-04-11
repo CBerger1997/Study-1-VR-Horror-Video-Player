@@ -1,5 +1,7 @@
 fileFormatVersion: 2
 guid: aa3a2b3718100f84fb5d8ff9adb8ccb7
+labels:
+- oculus_interaction_moved_ba7fedd41bedb494ca86a1ed721502b2
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
