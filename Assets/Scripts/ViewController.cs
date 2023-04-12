@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.XR.Interaction.Toolkit;
 
 public class ViewController : MonoBehaviour {
 
@@ -7,6 +8,7 @@ public class ViewController : MonoBehaviour {
     public Material CrossSkyBoxMat;
     public Material VideoSkyBoxMat;
     public VideoController videoController;
+    public GameObject RightHandController;
 
     int interviewCount = -1;
     int videoCount = 0;
@@ -17,24 +19,36 @@ public class ViewController : MonoBehaviour {
     bool isVideoActive = false;
     bool isTimerRunning = false;
 
+    List<UnityEngine.XR.InputDevice> rightHandDevices = new List<UnityEngine.XR.InputDevice> ();
+
+
     void Start () {
         MoveToCrossScreen ();
+        Timer = 5.0f;
+        isTimerRunning = true;
 
         foreach ( InterviewScreenController controller in interviewScreenControllers ) {
             controller.gameObject.SetActive ( false );
         }
+
+        UnityEngine.XR.InputDevices.GetDevicesAtXRNode ( UnityEngine.XR.XRNode.RightHand, rightHandDevices );
+
+        Unity.XR.Oculus.Performance.TrySetDisplayRefreshRate ( 90f );
     }
 
     void Update () {
 
-        if(Timer > 0.0f) {
+        if ( Timer > 0.0f ) {
             Timer -= Time.deltaTime;
         } else {
             isTimerRunning = false;
         }
 
+        bool triggerValue;
+
+        //if ( rightHandDevices[ 0 ].TryGetFeatureValue ( UnityEngine.XR.CommonUsages.secondaryButton, out triggerValue ) && triggerValue ) {
         if ( Input.GetKeyDown ( KeyCode.Space ) ) {
-            if ( isCrossScreenActive ) {
+            if ( isCrossScreenActive && !isTimerRunning ) {
                 MoveToVideoScreen ();
                 isCrossScreenActive = false;
                 Timer = 5.0f;
@@ -42,18 +56,21 @@ public class ViewController : MonoBehaviour {
             }
         }
 
-        if ( !videoController.videoPlayer.isPlaying && isVideoActive == true && !isTimerRunning) {
+        if ( !videoController.videoPlayer.isPlaying && isVideoActive && !isTimerRunning ) {
             isVideoActive = false;
             MoveToNextInterviewScreen ();
         }
     }
 
     public void MoveToNextInterviewScreen () {
+        RightHandController.GetComponent<XRInteractorLineVisual> ().enabled = true;
 
         if ( interviewCount == 3 ) {
             interviewCount = -1;
             videoCount++;
             MoveToCrossScreen ();
+            Timer = 5.0f;
+            isTimerRunning = true;
         } else {
             if ( interviewCount == -1 ) {
                 if ( videoCount == 0 || videoCount % 2 == 0 ) {
@@ -90,6 +107,7 @@ public class ViewController : MonoBehaviour {
     }
 
     public void MoveToCrossScreen () {
+        RightHandController.GetComponent<XRInteractorLineVisual> ().enabled = false;
         RenderSettings.skybox = CrossSkyBoxMat;
         isCrossScreenActive = true;
     }

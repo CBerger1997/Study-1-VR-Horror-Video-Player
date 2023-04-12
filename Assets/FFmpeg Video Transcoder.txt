@@ -1,0 +1,24 @@
+https://youtube4kdownloader.com/download/video/https%253A%252F%252Fwww.youtube.com%252Fwatch%253Fv%253DFEvRlvWbYog%2526ab_channel%253Dcos4production
+
+
+
+ffmpeg -i  "Horror 1.mp4" -vf "v360=c3x2:e:cubic:in_forder='lfrdbu':in_frot='000313',scale=1920:1080,setsar=1:1" -c:v libx264 -preset faster -crf 21 -c:a copy -movflags +faststart output_horror_1.mp4
+
+
+Horror: 
+
+https://www.youtube.com/watch?v=9vgBDiDpLmU&ab_channel=cos4production 
+
+https://www.youtube.com/watch?v=qfgXRPwgnl8&ab_channel=cos4production 
+
+https://www.youtube.com/watch?v=FEvRlvWbYog&ab_channel=cos4production 
+
+ 
+
+Calming: 
+
+https://www.youtube.com/watch?v=7AkbUfZjS5k&ab_channel=ECOVR 
+
+https://www.youtube.com/watch?v=XucTpkjQQLc&ab_channel=ImmersiveMeditation 
+
+https://www.youtube.com/watch?v=v6VWv61kK1g&ab_channel=ReelAgainMedia 
